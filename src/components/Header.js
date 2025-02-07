@@ -12,10 +12,10 @@ export const Header = () => {
       </Link>
       <nav className="navigation">
         <NavLink to="/" className="link" end>
-          Home
+          Home Page
         </NavLink>
         <NavLink to="/cart" className="link">
-          Cart
+          Cart Page
         </NavLink>
       </nav>
       <Link to="/cart" className="items">
